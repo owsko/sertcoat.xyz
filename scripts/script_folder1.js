@@ -2,10 +2,10 @@ let folderSelecEl = document.getElementById("iframe-folder");
 //testAgainst.addEventListener("click", display_folder1());
 
 function display_folder1() {
-    folderSelecEl.src = "pages/folders/folder1.html"
+    folderSelecEl.src = "pages/empty.html"
 }
 function display_folder2() {
-    folderSelecEl.src = "pages/folders/folder2.html"
+    folderSelecEl.src = "pages/empty.html"
 }
 function display_folder3() {
     folderSelecEl.src = "pages/empty.html"
