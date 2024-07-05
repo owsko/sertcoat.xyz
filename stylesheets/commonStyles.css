@@ -1,0 +1,33 @@
+body {
+    background: black;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+
+
+.prevent {
+    user-select: none;
+}
+
+
+
+a:link {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: burlywood;
+    text-decoration: none;
+}
+
+a:active {
+    color: burlywood;
+    text-decoration: underline;
+}
