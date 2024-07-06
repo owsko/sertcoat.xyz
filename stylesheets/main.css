@@ -7,23 +7,30 @@ body {
 
 
 header {
+    margin-top: 15px;
+
     font-weight: bold;
     background: black;
 
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    align-content: center;
 }
 
 .main-menu {
-    margin: 0;
-    padding: 0;
     list-style-type: none;
+    
+    /*
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    */
 }
 
 .main-menu li {
     display: inline-block;
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
 }
 
 
@@ -71,6 +78,7 @@ header {
 td {
     padding: 0 15px 0 0;   
 }
+
 
 
 

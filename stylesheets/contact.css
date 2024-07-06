@@ -1,8 +1,10 @@
 div {
-    margin-top: 50px;
     display: flex;
-    text-align: center;
     overflow: auto;
+}
+
+header {
+    margin-bottom: 50px;
 }
 
 input {
@@ -91,6 +93,10 @@ button:hover {
 
 
 @media (max-width: 800px) {
+    div {
+        text-align: center;
+    }
+
     input {
         width: 85vw; 
         margin-left: 5px;
@@ -108,5 +114,13 @@ button:hover {
     button {
         width: 70vw;
         font-size: 20px;
+    }
+
+    header {
+        padding: 16px 16px 0px 16px;
+    }
+
+    body {
+        padding: 0vw;
     }
 }
