@@ -28,11 +28,3 @@ function display_folder8() {
 function display_folder9() {
     folderSelecEl.src = "pages/empty.html"
 }
-
-
-
-
-
-
-
-
