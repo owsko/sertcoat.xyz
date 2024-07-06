@@ -10,6 +10,8 @@ input {
     font-size: 18px;
     padding: 16px 16px;
     border-radius: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
     margin-bottom: 20px;
     border: 1;
     
@@ -23,6 +25,8 @@ textarea {
     font-size: 18px;
     padding: 16px 16px;
     border-radius: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
     margin-bottom: 25px;
     border: 1;
 }
@@ -48,6 +52,8 @@ input:focus-within {
     outline: none;
     border-color: burlywood ;
     border-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 input[type="text"] {
@@ -62,18 +68,20 @@ input[type="number"] {
     font-family: monospace;
 }
 
-::placeholder {
-    font-family: monospace;
-}
-
 textarea:focus-within {
     outline: none;
     border-color: burlywood;
     border-width: 3px;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 button:hover {
     background-color: whitesmoke;
     color: black;
     cursor: pointer;
+}
+
+::placeholder {
+    font-family: monospace;
 }
