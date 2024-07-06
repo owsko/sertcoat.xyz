@@ -1,5 +1,8 @@
 div {
     margin-top: 50px;
+    display: flex;
+    text-align: center;
+    overflow: auto;
 }
 
 input {
@@ -8,13 +11,12 @@ input {
     width: 70%;
     margin-left: 12%;
     font-size: 18px;
-    padding: 16px 16px;
+    padding: 16px 16px; /* remove?? */
     border-radius: 5px;
     border-left-width: 0px;
     border-right-width: 0px;
     margin-bottom: 20px;
     border: 1;
-    
 }
 
 textarea {
@@ -84,4 +86,31 @@ button:hover {
 
 ::placeholder {
     font-family: monospace;
+}
+
+
+
+@media (max-width: 800px) {
+    input {
+        width: 85vw; 
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+    
+    textarea {
+        width: 85vw;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 70vw;
+        font-size: 20px;
+    }
+
+    body {
+        padding: 0vw;
+    }
 }
