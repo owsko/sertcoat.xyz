@@ -1,0 +1,63 @@
+div {
+    margin-top: 50px;
+}
+
+input {
+    background-color: black;
+    color: whitesmoke;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1;
+    
+}
+
+textarea {
+    background-color: black;
+    color: whitesmoke;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1;
+}
+
+button {
+    background-color: whitesmoke;
+    color: black;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: 0;
+}
+
+
+
+
+input:focus-within {
+    outline: none;
+    border-color: burlywood ;
+    border-width: 3px;
+}
+
+textarea:focus-within {
+    outline: none;
+    border-color: burlywood;
+    border-width: 3px;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+}
