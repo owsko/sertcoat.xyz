@@ -15,7 +15,7 @@ body {
 
 a:link {
     color: whitesmoke;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
@@ -30,7 +30,7 @@ a:hover {
 
 a:active {
     color: burlywood;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
