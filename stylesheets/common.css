@@ -31,3 +31,12 @@ a:active {
     color: burlywood;
     text-decoration: underline;
 }
+
+
+
+
+@media (max-width: 500px) {
+    body {
+        padding: 0vw;
+    }
+}
