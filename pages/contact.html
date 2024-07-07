@@ -11,6 +11,14 @@
 
     <link rel="icon" href="media/favicons/favicon-32x32.png" />
 
+    <!-- Yarndings (font)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yarndings+20&display=swap"
+      rel="stylesheet"
+    />
+
     <title>sertcoat.xyz \ CONTACT</title>
   </head>
 
@@ -44,7 +52,7 @@
     </header>
 
     <div class="prevent" id="form">
-      <form action="https://formsubmit.co/9e62680af5003eec1d00872224ed336d" method="POST">
+      <form action="https://formsubmit.co/9e62680af5003eec1d00872224ed336d" method="POST" class="form">
       
         <!-- Honeypot -->
         <input type="text" name="_honey" style="display: none;">
@@ -58,15 +66,19 @@
       <input 
         type="text"
         name="name"
+        id="name"
         placeholder="Name*"
         autocomplete="off"
+        class="randomfont"
         required
       />
       <input 
         type="email"
         name="email"
+        id="email"
         placeholder="Email*"
         autocomplete="off"
+        class="randomfont"
         required
       />
       <input 
@@ -74,7 +86,8 @@
         name="number"
         placeholder="Number"
         autocomplete="off"
-        style="appearance: textfield"
+        style="appearance: textfield;"
+        class="randomfont"
       />
       <textarea         
         name="message"
@@ -82,6 +95,7 @@
         rows="5"
         cols="60"
         placeholder="Message*"
+        class="randomfont"
         required
       ></textarea>
       <button type="submit">__φ(．．)</button>
@@ -92,6 +106,8 @@
     <script src="../scripts/script_randomHeader.js"></script>
     <script src="../scripts/script_eraseText.js"></script>
     <script src="../scripts/script_menuIcon.js"></script>
+
+    <script src="../scripts/script_randomFonts.js"></script>
 
   </body>
 </html>
