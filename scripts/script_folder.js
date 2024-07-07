@@ -19,8 +19,8 @@ function display_folder5() {
 function display_folder6() {
     folderSelecEl.src = "pages/empty.html"
 }
-function display_folder7() {
-    folderSelecEl.src = "pages/empty.html"
+function display_sourcecode() {
+    folderSelecEl.src = "pages/folders/sourcecode.html"
 }
 function display_folder8() {
     folderSelecEl.src = "pages/empty.html"
