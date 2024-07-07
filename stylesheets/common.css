@@ -3,7 +3,10 @@ body {
     color: whitesmoke;
     font-family: monospace;
     font-size: 13px;
+
+    overflow: hidden;
 }
+
 
 
 
@@ -13,24 +16,42 @@ body {
 
 
 
+
 a:link {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:visited {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    color: burlywood;
+    color: rgb(223, 149, 53);
     text-decoration: none;
 }
 
 a:active {
-    color: burlywood;
+    color: rgb(223, 149, 53);
     text-decoration: none;
 }
+
+
+
+
+::-moz-selection { 
+    color: rgb(0, 0, 0);
+    background: rgb(255, 0, 0);
+  }
+  
+::selection {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 0, 0);
+}
+
+
+
+
 
 

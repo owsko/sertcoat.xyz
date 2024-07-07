@@ -10,7 +10,7 @@ header {
 
 input {
     background-color: black;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     width: 70%;
     margin-left: 12%;
     font-size: 18px;
@@ -24,7 +24,7 @@ input {
 
 textarea {
     background-color: black;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     width: 70%;
     margin-left: 12%;
     font-size: 18px;
@@ -38,7 +38,7 @@ textarea {
 
 button {
     background-color: black;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     width: 30%;
     border-radius: 18px;
     font-size: 22px;
@@ -82,7 +82,7 @@ textarea:focus-within {
 }
 
 button:hover {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     color: black;
     cursor: pointer;
 }
