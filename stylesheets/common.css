@@ -1,7 +1,10 @@
 body {
     background: rgb(0, 0, 0);
-    color: whitesmoke;
-    font-family: monospace;
+    color: rgb(255, 255, 255);
+
+    font-family: "Press Start 2P", monospace;
+    font-style: normal;
+    font-weight: 400;
     font-size: 13px;
 
     overflow: hidden;
@@ -20,21 +23,25 @@ body {
 a:link {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:visited {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
     color: rgb(223, 149, 53);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:active {
     color: rgb(223, 149, 53);
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -42,12 +49,12 @@ a:active {
 
 ::-moz-selection { 
     color: rgb(0, 0, 0);
-    background: rgb(255, 0, 0);
+    background: rgb(255, 255, 255);
   }
   
 ::selection {
   color: rgb(0, 0, 0);
-  background: rgb(255, 0, 0);
+  background: rgb(255, 255, 255);
 }
 
 
