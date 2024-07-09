@@ -8,5 +8,7 @@ font_sub.addEventListener("submit", function randomizeFont() {
     num = Math.floor(Math.random() * fontType.length);
     for (let i = 0; i < fontEl.length; i++) {
         fontEl[i].style.fontFamily = fontType[num];
+        fontEl[i].style.borderTopWidth = '0px';
+        fontEl[i].style.borderBottomWidth = '0px';
     }
 });
