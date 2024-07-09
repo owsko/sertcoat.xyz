@@ -43,12 +43,14 @@ header {
     padding-top: 10px; /* idk */
 }
 
-.content img {
+.content iframe {
+    /*
     width: 100%;
     height: auto;
+    */
     border-radius: 3px;
 
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 
