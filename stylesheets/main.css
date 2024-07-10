@@ -63,9 +63,8 @@ header {
     display: flex;
 }
 
-.parent-1 div {
+.parent-1 iframe {
     margin-inline: auto;
-    width: 100%;
 }
 
 .images-front {
