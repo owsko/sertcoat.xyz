@@ -1,4 +1,4 @@
-const fontType = ["'Yarndings 20'"];
+const fontType = ["'Flow Block'"];
 const font_sub = document.querySelector(".form");
 const buttonEl = document.getElementById("btn");
 
@@ -9,17 +9,14 @@ font_sub.addEventListener("submit", function randomizeFont() {
     num = Math.floor(Math.random() * fontType.length);
     for (let i = 0; i < fontEl.length; i++) {
         fontEl[i].style.fontFamily = fontType[num];
-        fontEl[i].style.borderTopWidth = '0px';
-        fontEl[i].style.borderBottomWidth = '0px';
+        fontEl[i].style.borderWidth = '0px';
     }
-
-    buttonEl.textContent = "Almost Done";
 });
 
 buttonEl.addEventListener("mouseover", function changeName() {
-    buttonEl.textContent = "SEND";
+    buttonEl.textContent = "chat";
 });
 
 buttonEl.addEventListener("mouseout", function changeName() {
-    buttonEl.textContent = "__φ(．．)";
+    buttonEl.textContent = "_φ(．．)";
 });

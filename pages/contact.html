@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="../stylesheets/main.css" />
     <link rel="stylesheet" href="../stylesheets/common.css" />
     <link rel="stylesheet" href="../stylesheets/contact.css" />
-    <link rel="stylesheet" href="../stylesheets/menuBar.css">
+    <link rel="stylesheet" href="../stylesheets/menuBar.css" />
 
     <link rel="icon" href="media/favicons/favicon-32x32.png" />
 
-    <!-- Yarndings (font)-->
+    <!-- Flow Block -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Yarndings+20&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Flow+Block&display=swap"
       rel="stylesheet"
     />
 
@@ -30,11 +30,11 @@
     <title>sertcoat.xyz \ CONTACT</title>
   </head>
 
-  <body></body>
-    <header>
+  <body>
+    <header class="prevent">
       <!-- MENU ICON -->
-      <div class="prevent" id="menu-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div>
+      <div id="menu-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1">menu</div>
         <div class="bar2"></div>
         <div class="bar3"></div>
         <ul class="mobile-menu main-menu">
@@ -55,67 +55,68 @@
         </nav>
       </div>
       <div>
-        <img src="" alt="">
+        <img src="" alt="" />
       </div>
     </header>
 
     <div class="prevent contact" id="form">
-      <form action="https://formsubmit.co/9e62680af5003eec1d00872224ed336d" method="POST" class="form">
-      
+      <form
+        action="https://formsubmit.co/9e62680af5003eec1d00872224ed336d"
+        method="POST"
+        class="form"
+      >
         <!-- Honeypot -->
-        <input type="text" name="_honey" style="display: none;">
+        <input type="text" name="_honey" style="display: none" />
 
         <!-- Disable Captcha -->
-        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_captcha" value="false" />
 
         <!-- Endscreen -->
-        <input type="hidden" name="_next" value="https://sertcoat.xyz">
+        <input type="hidden" name="_next" value="https://sertcoat.xyz" />
 
-      <input 
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Name*"
-        autocomplete="off"
-        class="randomfont"
-        required
-      />
-      <input 
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Email*"
-        autocomplete="off"
-        class="randomfont"
-        required
-      />
-      <input 
-        type="tel"
-        name="number"
-        placeholder="Number"
-        autocomplete="off"
-        style="appearance: textfield;"
-        class="randomfont"
-      />
-      <textarea         
-        name="message"
-        id="messageValue"
-        rows="5"
-        cols="60"
-        placeholder="Message*"
-        class="randomfont"
-        required
-      ></textarea>
-      <button type="submit" id="btn">&UnderBar;&UnderBar;φ&lpar;．．&rpar;</button>
-    </form>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name*"
+          autocomplete="off"
+          class="randomfont"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email*"
+          autocomplete="off"
+          class="randomfont"
+          required
+        />
+        <input
+          type="tel"
+          name="number"
+          placeholder="Number"
+          autocomplete="off"
+          style="appearance: textfield"
+          class="randomfont"
+        />
+        <textarea
+          name="message"
+          id="messageValue"
+          rows="5"
+          cols="60"
+          placeholder="Message*"
+          class="randomfont"
+          required
+        ></textarea>
+        <button type="submit" id="btn">&UnderBar;φ&lpar;．．&rpar;</button>
+      </form>
     </div>
-    
 
     <script src="../scripts/script_randomHeader.js"></script>
     <script src="../scripts/script_eraseText.js"></script>
     <script src="../scripts/script_menuIcon.js"></script>
 
     <script src="../scripts/script_formfont.js"></script>
-
   </body>
 </html>
