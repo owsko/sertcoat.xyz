@@ -101,15 +101,8 @@ button:hover {
     font-size: medium;
 }
 
-form:active {
-
-}
 
 @media (max-width: 800px) {
-    div {
-        text-align: center;
-    }
-
     input {
         width: 85vw; 
         margin-left: 5px;
@@ -135,6 +128,7 @@ form:active {
 
     .contact {
         margin-top: 0px;
+        text-align: center;
     }
     
 }

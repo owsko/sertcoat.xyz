@@ -117,4 +117,9 @@ footer {
     #header-h1 {
         font-size: 15px;
     }
+
+    .main-menu li {
+        display: inline-block;
+        margin: 0 0 0 0;
+    }
 }
