@@ -46,10 +46,9 @@ header {
 
 .content iframe {
 
-    max-width: 560px;
-    min-height: 315px;
+    aspect-ratio: 16/9;
     width: 100%;
-    height: auto;
+    max-width: 600px;
 
     border-radius: 3px;
 
