@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../stylesheets/common.css" />
     <link rel="stylesheet" href="../stylesheets/contact.css" />
     <link rel="stylesheet" href="../stylesheets/status.css">
+    <link rel="stylesheet" href="../stylesheets/menuBar.css">
 
     <!-- Press Start 2P -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,15 +24,33 @@
   </head>
 
   <body></body>
-    <header>
+  <header>
+    <!-- MENU ICON -->
+    <div class="prevent" id="menu-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu main-menu">
+        <li><a href="index.html">SERTCOAT.XYZ</a></li>
+        <li><a href="pages/contact.html">CONTACT ME</a></li>
+      </ul>
+    </div>
+
+    <!-- NORMAL MENU -->
+    <div>
       <nav>
         <ul class="main-menu">
-          <li><a href="../index.html">SERTCOAT.XYZ</a></li>
-          <li><a href="contact.html">CONTACT ME</a></li>
+          <li><a href="index.html">SERTCOAT.XYZ</a></li>
+          <li>
+            <a href="pages/contact.html" id="header-contact">CONTACT ME</a>
+          </li>
         </ul>
       </nav>
-      <h1 class="prevent" id="header-h1">&gt;.&lt;</h1>
-    </header>
+    </div>
+    <div>
+      <img src="" alt="" />
+    </div>
+  </header>
     
     <div class="container">
     <div id="message">-&nbsp;&nbsp;Sent&nbsp;&nbsp;-</div>
