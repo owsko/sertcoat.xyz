@@ -12,6 +12,8 @@ font_sub.addEventListener("submit", function randomizeFont() {
         fontEl[i].style.borderTopWidth = '0px';
         fontEl[i].style.borderBottomWidth = '0px';
     }
+
+    buttonEl.textContent = "Almost Done";
 });
 
 buttonEl.addEventListener("mouseover", function changeName() {
